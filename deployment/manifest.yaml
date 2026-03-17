@@ -2,7 +2,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: Workflow
 metadata:
   generateName: titanic-training-workflow-
-  namespace: user-${SSPCLOUD_USERNAME}
+  namespace: user-matheo
 spec:
   entrypoint: main
   serviceAccountName: workflow
