@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: titanic
-        image: matheoleroyensae/application:v0.0.3
+        image: matheoleroyensae/application:v0.0.4
         ports:
         - containerPort: 8000
         env:
